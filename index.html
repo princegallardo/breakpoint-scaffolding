@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Breakpoint and Scaffholding</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+    body {
+      transition: background-color 0.5s ease;
+    }
+
+    body {
+      background-color: #4B0082; 
+    }
+
+    @media (max-width: 575.98px) {
+      body {
+        background-color: #1abc9c; /* Turquoise */
+      }
+    }
+
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      body {
+        background-color: #f39c12; /* Orange */
+      }
+    }
+
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      body {
+        background-color: #3498db; /* Blue */
+      }
+    }
+
+    @media (min-width: 1400px) {
+      body {
+        background-color: #b01a76; /* Pink */
+      }
+    }
+   
+
+    .bg-cyan { background-color: #00CFE8; }
+    .bg-gold { background-color: #FFC107; }
+    .bg-red { background-color: #DC3545; }
+    .bg-green { background-color: #198754; }
+  </style>
+</head>
+
+<body class="text-white">
+  <div class="container py-5">
+    <!-- Header -->
+    <h1 class="text-center fw-bold display-4">Breakpoint and Scaffholding</h1>
+    <p class="text-center fs-5 mb-4">Resize the window to see the effect.</p>
+
+    <div class="row text-black">
+      <div class="col-12 bg-white text-center py-2">HEADER</div>
+    </div>
+
+    <div class="row text-center text-white">
+      <div class="col-md-4 bg-gold py-3">1/3 offset</div>
+      <div class="col-md-4 bg-green py-3">1/3</div>
+      <div class="col-md-4 bg-green py-3">1/3</div>
+    </div>
+
+    <div class="row text-center text-white">
+      <div class="col-md-4 bg-cyan py-3">1/3</div>
+      <div class="col-md-8 bg-red py-3">2/3</div>
+    </div>
+
+    <div class="row text-center text-white">
+      <div class="col-md-3 bg-gold py-3">1/4</div>
+      <div class="col-md-6 bg-green py-3">1/2</div>
+      <div class="col-md-3 bg-gold py-3">1/4</div>
+    </div>
+
+    <div class="row text-center text-white">
+      <div class="col-md-3 bg-green py-3">1/4</div>
+      <div class="col-md-3 bg-red py-3">1/4</div>
+      <div class="col-md-3 bg-gold py-3">1/4</div>
+      <div class="col-md-3 bg-cyan py-3">1/4</div>
+    </div>
+
+    <div class="row text-center text-white">
+      <div class="col-md-3 bg-green py-3">1/4</div>
+      <div class="col-md-3 bg-cyan py-3">1/4</div>
+      <div class="col-md-3 bg-cyan py-3">1/4</div>
+      <div class="col-md-3 bg-gold py-3">1/4</div>
+    </div>
+
+    <div class="row text-center text-white">
+      <div class="col-md-2 bg-green py-3">1/6</div>
+      <div class="col-md-7 bg-red py-3">7/12</div>
+      <div class="col-md-3 bg-gold py-3">1/4</div>
+    </div>
+  </div>
+</body>
+</html>
